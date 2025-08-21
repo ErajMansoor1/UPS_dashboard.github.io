@@ -1,0 +1,99 @@
+{
+  "css.lint.unknownPseudoElements": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.scrollback": 10000,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/bower_components/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true
+  },
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "eslint.enable": true,
+  "editor.codeLens": true,
+  "editor.folding": true,
+  "editor.foldingStrategy": "auto",
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.showTabs": true,
+  "extensions.ignoreRecommendations": false,
+  "extensions.autoUpdate": true,
+  "extensions.showRecommendationsOnlyOnDemand": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 3,
+  "explorer.sortOrder": "default",
+  "explorer.decorations.colors": true,
+  "[html]": {
+    "editor.defaultFormatter": null
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": null
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": null
+  },
+  "[plaintext]": {
+    "editor.defaultFormatter": null
+  },
+  "[scss]": {
+    "editor.defaultFormatter": null
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": null
+  },
+  "[xml]": {
+    "editor.defaultFormatter": null
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "vue": [
+      "html",
+      "jsx"
+    ]
+  }
+}
